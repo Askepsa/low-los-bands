@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TODO add favicon -->
+  <title>Low-Los-Band</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <svg width="30" height="300" viewBox="0 0 14 300" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(0, 15)">
+          <circle cx="7" cy="15" r="15" fill="#8D8D8D"/>
+          <circle cx="7" cy="15" r="7" fill="white"/>
+        </g>
+        <g transform="translate(0, 75)">
+          <circle class="hidden" cx="7" cy="15" r="15" fill="#8D8D8D"/>
+          <circle cx="7" cy="15" r="7" fill="white"/>
+        </g>
+        <g transform="translate(0, 135)">
+          <circle class="hidden" cx="7" cy="15" r="15" fill="#8D8D8D"/>
+          <circle cx="7" cy="15" r="7" fill="white"/>
+        </g>
+        <g transform="translate(0, 200)">
+          <circle class="hidden" cx="7" cy="15" r="15" fill="#8D8D8D"/>
+          <circle cx="7" cy="15" r="7" fill="white"/>
+        </g>
+      </svg>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="assets/stock.png" alt="band">
+      <div>
+        <h1 class="hero-font-size">Low-Los-Band</h1>
+        <p class="sub-heading-font-size">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <img class="arrow-svg" src="assets/Arrow.svg" alt="Scroll Down">
+    </section>
+
+    <section class="music">
+      <div class="music-audio">
+        <audio id="glass-beach">
+          <source src="music/Glass Beach.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="hello-to-aoharu">
+          <source src="music/Hello To Aoharu.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="ressurected-replayer">
+          <source src="music/Resurrected replayer.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="yoshis-island">
+          <source src="music/Yoshi's Island.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="heading-text">
+        <h1 class="heading-font-size">Listen to our works!</h1>
+      </div>
+      <div class="music-player">
+        <div class="music-selection-container">
+          <div class="music-selection-filter">
+            <button>See all</button>
+            <button>Top hits</button>
+            <button>Albums</button>
+          </div>
+          <div class="music-button-container" id="forever">
+            <audio id="forever">
+              <source src="music/Forever.mp3" type="audio/mpeg">
+            </audio>
+            <div class="music-button-image-container">
+                <div class="album-image"></div>
+                <img class="play-button" src="assets/play-button.svg" alt="play">
+                <img class="pause-button" src="assets/pause-button.svg" alt="play">
+            </div>
+            <div class="music-button-info-container">
+              <div class="music-info">
+                <p>Forever</p>
+                <p>Album</p>
+              </div> 
+              <div class="music-info-duration">
+                <p>4:20</p>
+              </div>
+            </div>
+          </div>
+          <div class="music-button-container" id="classic-j">
+              <audio id="classic-j">
+                <source src="music/Classic J Goes To Hell.mp3" type="audio/mpeg">
+              </audio>
+            <div class="music-button-image-container">
+              <div class="album-image"></div>
+              <img class="play-button" src="assets/play-button.svg" alt="play">
+              <img class="pause-button" src="assets/pause-button.svg" alt="play">
+            </div>
+            <div class="music-button-info-container">
+              <div class="music-info">
+                <p>Classic J Goes To Hell</p>
+                <p>Album</p>
+              </div> 
+              <div class="music-info-duration">
+                <p>4:20</p>
+              </div>
+            </div>
+          </div>
+          <div class="music-button-container" id="bedroom-community">
+            <audio id="bedroom-community">
+              <source src="music/Bedroom Community.mp3" type="audio/mpeg">
+            </audio>
+            <div class="music-button-image-container">
+              <div class="album-image"></div>
+              <img class="play-button" src="assets/play-button.svg" alt="play" alt="play">
+              <img class="pause-button" src="assets/pause-button.svg" alt="play" alt="play">
+            </div>
+            <div class="music-button-info-container">
+              <div class="music-info">
+                <p>Beedroom Community</p>
+                <p>Album</p>
+              </div> 
+              <div class="music-info-duration">
+                <p>4:20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/disk.svg" alt="disk" id="disk">
+      </div>
+    </section>
+
+    <section class="event">
+      <div class="heading-text">
+        <h1 class="heading-font-size">Events</h1>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-image-container"></div>
+          <div class="card-event-info-container">
+            <div class="card-event-date">
+              <h1>Sep <br> 2</h1>   
+            </div>
+            <div class="card-event-title">
+              <h1>Event Title</h1>
+            </div>
+            <div class="card-event-description">
+              <p>Lorem ipsum doloradipisicing elit.</p>
+            </div>
+            <div class="card-event-location">
+              <p>Olongapo City, Philippines</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image-container"></div>
+          <div class="card-event-info-container">
+            <div class="card-event-date">
+              <h1>Sep <br> 2</h1>   
+            </div>
+            <div class="card-event-title">
+              <h1>Event Title</h1>
+            </div>
+            <div class="card-event-description">
+              <p>Lorem ipsum doloradipisicing elit.</p>
+            </div>
+            <div class="card-event-location">
+              <p>Olongapo City, Philippines</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image-container"></div>
+          <div class="card-event-info-container">
+            <div class="card-event-date">
+              <h1>Sep <br> 2</h1>   
+            </div>
+            <div class="card-event-title">
+              <h1>Event Title</h1>
+            </div>
+            <div class="card-event-description">
+              <p>Lorem ipsum doloradipisicing elit.</p>
+            </div>
+            <div class="card-event-location">
+              <p>Olongapo City, Philippines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h1 class="heading-font-size">Get in touch with us!</h1>
+    </div>
+    <div class="footer-links">
+      <img src="assets/icons/youtube.svg" alt="youtube">
+      <img src="assets/icons/twitter.svg" alt="twitter">
+      <img src="assets/icons/instagram.svg" alt="instagram">
+      <img src="assets/icons/reddit.svg" alt="reddit">
+    </div>
+    <div>
+      <p>&copy; 2023 Low-Los-Band</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
