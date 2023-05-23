@@ -7,9 +7,6 @@ const circles  = document.querySelectorAll('circle');
 let index = 0;
 let startY = null;
 
-// Illegal function (more like lifehax cuz tinatamad ako 
-// mag come up ng solution para ayusin ang problem ng animation) 
-// to re-render every elements except the hero section
 sections.forEach(element => {
   if (element.className !== 'hero') {
     element.style.display = 'none';

@@ -431,6 +431,63 @@ footer {
   }
 }
 
+.form {
+  animation: var(--transition);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--dark-charcoal);
+  box-shadow: 10px 10px 10px var(--granite-gray);
+}
+
+form * {
+  color: var(--anti-flash-white);
+}
+
+form:first-child h1 {
+  margin-block: 1rem;
+}
+
+form input {
+  width: 100%;
+}
+
+form button {
+  width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-block: 1rem;
+  border-radius: var(--border-radius);
+  color: black;
+  background-color: var(--anti-flash-white);
+  box-shadow: 5px 5px 5px var(--black);
+}
+
+input {
+  padding-block: 1rem;
+}
+
+textarea {
+  padding-block: 1rem;
+}
+
+textarea,
+input {
+  padding-inline: 1rem;
+  background: #ffffff00;
+  border: 1px solid blue;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
 /* 
 Cool Stuff to implement in music's list container 
 
