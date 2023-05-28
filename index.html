@@ -28,7 +28,7 @@
           <circle class="hidden" cx="7" cy="15" r="15" fill="#8D8D8D"/>
           <circle cx="7" cy="15" r="7" fill="white"/>
         </g>
-        <g transform="translate(0, 250)">
+        <g transform="translate(0, 260)">
           <circle class="hidden" cx="7" cy="15" r="15" fill="#8D8D8D"/>
           <circle cx="7" cy="15" r="7" fill="white"/>
         </g>
@@ -37,7 +37,14 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="hero">
+      <div class="navs">
+        <button id="nav-home-btn">Home</button>
+        <button id="nav-music-btn">Music</button>
+        <button id="nav-event-btn">Events</button>
+        <button id="nav-contact-btn">Contact</button>
+      </div>
+
       <img class="hero-image" src="assets/stock.png" alt="band">
       <div>
         <h1 class="hero-font-size">Low-Los-Band</h1>
@@ -46,7 +53,7 @@
       <img class="arrow-svg" src="assets/Arrow.svg" alt="Scroll Down">
     </section>
 
-    <section class="music">
+    <section class="music" id="music">
       <div class="music-audio">
         <audio id="glass-beach">
           <source src="music/Glass Beach.mp3" type="audio/mpeg">
@@ -133,7 +140,7 @@
       </div>
     </section>
 
-    <section class="event">
+    <section class="event" id="event">
       <div class="heading-text">
         <h1 class="heading-font-size">Events</h1>
       </div>
@@ -192,11 +199,6 @@
       </div>
     </section>
     <section class="form">
-      <!-- 
-        Ref: 
-        https://colorlib.com/wp/wp-content/uploads/sites/2/contact-form-04.jpg 
-        https://cdn-images-1.medium.com/v2/resize:fit:900/0*ZAyh1wiEdgL6tzlB.png
-      -->
       <form action="">
         <h1>Send us a message</h1>
         <input type="text" placeholder="Full Name">

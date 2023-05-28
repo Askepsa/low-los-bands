@@ -127,6 +127,23 @@ button {
 
 /* Hero */
 
+.navs {
+  position: absolute;
+  align-self: flex-end;
+  top: 5%;
+}
+
+.navs button {
+  color: var(--dark-charcoal);
+  font-size: large;
+  font-weight: 500;
+  margin-inline: 1rem;
+}
+
+.navs button:hover {
+  border-bottom: 10px solid var(--granite-gray);
+}
+
 .hero {
   background: rgb(49,49,49);
   background: radial-gradient(circle, rgba(49,49,49,1) 0%, rgba(97,97,97,1) 0%, rgba(242,242,242,1) 95%); 

@@ -108,3 +108,33 @@ const musicButtons = document.querySelectorAll('.music-button-container');
 musicButtons.forEach((musicButton) => {
   musicButton.addEventListener('click', handleMusicButtonClick);
 });
+
+// Nav
+const nav = {
+  home: document.getElementById('nav-home-btn'),
+  music: document.getElementById('nav-music-btn'),
+  event: document.getElementById('nav-event-btn'),
+  contact: document.getElementById('nav-contact-btn')
+}
+
+nav.home.addEventListener('click', () => {
+  transitionToPreviousSection();
+  transitionToPreviousSection();
+  transitionToPreviousSection();
+  transitionToPreviousSection();
+})
+
+nav.music.addEventListener('click', () => {
+  transitionToNextSection();
+})
+
+nav.event.addEventListener('click', () => {
+  transitionToNextSection();
+  transitionToNextSection();
+})
+
+nav.contact.addEventListener('click', () => {
+  transitionToNextSection();
+  transitionToNextSection();
+  transitionToNextSection();
+})
